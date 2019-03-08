@@ -1,0 +1,94 @@
+html, body {
+  overflow-x; hidden;
+  background-color: #fff;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  position: relative;
+}
+
+.box {
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Abel', sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+}
+
+.button {
+  background: #4F4F4F;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+}
+
+/* Navbar */
+nav {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  position: fixed;
+  text-align: center;
+}
+
+nav .box .logo a {
+  color: #000;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.box .menu a {
+  color: #000;
+  font-size: 20px;
+}
