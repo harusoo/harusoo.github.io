@@ -1,6 +1,7 @@
-html, body {
-  overflow-x; hidden;
+body {
   background-color: #fff;
+  min-width: 320px;
+  overflow-x: hidden;
 }
 
 *, *:before, *:after {
@@ -17,18 +18,33 @@ html, body {
 }
 
 .box {
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
+  position: relative;
 }
+
+.twelve-column .eight-column {
+  width: 96%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+
 
 h1 {
   font-family: 'Abel', sans-serif;
   font-size: 36px;
+  margin: 50px;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
   font-weight: 400;
+  -webkit-margin-before: 0;
+  -webkit-margin-after:0;
 }
 
 p {
@@ -38,12 +54,21 @@ p {
 
 .button {
   background: #4F4F4F;
+  border-radius: 3px;
   color: #fff;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 600;
+  margin-top: 20px;
+  padding: 15px 40px;
+  text-align: center;
   text-decoration: none;
+  vertical-align: middle;
+}
+
+.button:hover {
+    background-color: #000;
 }
 
 ul {
@@ -56,39 +81,110 @@ li a {
   display: block;
 }
 
+
 /* Navbar */
 nav {
+  background: #fff;
   color: #000;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  height: 10vh;
+  overflow: hidden;
+  padding: 16px 14px;
   position: fixed;
   text-align: center;
 }
 
-nav .box .logo a {
+ nav .logo {
+   display: inline-block;
+   float: left;
+   margin: 0 0 0 0;
+ }
+
+.logo a {
   color: #000;
   font-size: 36px;
+  letter-spacing: 3%;
   text-decoration: none;
+  width: 215px;
+  height:19px;
 }
 
 nav ul {
-  float: right;
-  list-style-type: none;
-  overflow: hidden;
   background-color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  letter-spacing: 3%;
+  list-style-type: none;
+  margin: 0;
 }
 
 nav li {
   float: left;
+  display: inline-block;
+  margin: 0 0px;
 }
 
 nav li a {
+  color: #000;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.box .menu a {
+/* Hero */
+.welcome {
+  background-color: #000;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  height: 60vh;
+  padding: 150px 150px;
+}
+
+section div h1 {
+  margin: 50px;
+  align-items: center;
+}
+
+/* Projects */
+.iconplex-cloud-storage, .bloc-jams {
+  background-color: #fff;
+  height: 70vh;
+  min-height: 480px;
+  position: relative;
+}
+
+.bloc-jams {
+  background-color: #e5e5e5;
+}
+
+/* Connect */
+.connect {
+  background-color: #fff;
   color: #000;
-  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  height: 40vh;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  color: #000;
+  float: center;
+  height: 31vh;
+}
+
+footer p {
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+}
+
+/* About */
+.self-portrait h2 {
+  font-fmaily: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
 }
