@@ -422,7 +422,7 @@ img.resize {
   justify-content: center;
   margin: 0 auto;
   padding: 100px 0;
-  position: relative;
+  position: sticky;
 }
 
 .contact-box.eight-column {
