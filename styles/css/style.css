@@ -22,7 +22,7 @@ img {
   background-color: #fff;
 }
 
-/** Nav **/
+/*** Nav ***/
 .header {
   background: #fff;
   color: #000;
@@ -222,12 +222,10 @@ p {
   top: 1657px;
 }
 
-.inner-part {
+.connect-container {
   display: flex;
-  float: center;
   flex-direction: column;
   justify-content: center;
-  margin: 70px 0;
   padding: 50px 0;
   vertical-align: middle;
 }
@@ -237,54 +235,52 @@ p {
 }
 
 .connect-button {
-  margin-left: 100px;
-  margin-right: 90px;
-  padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer */
-.footer {
+#footer {
   background: #fff;
   display: flex;
   flex-direction: column;
   height: 200px;
   justify-content: center;
   margin: 0 auto;
-  position: static;
+  position: sticky;
   top: 1857px;
-  resize: vertical;
-  overflow: auto;
 }
 
-.footer-container {
+.column {
   align-items: center;
   display: flex;
   flex-direction: column;
-  float: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
-.social {
+ul#social {
   display: flex;
-  margin: 0;
+  margin: 0 auto;
+  padding: 10px 0;
 }
 
-.social li {
+ul#social li {
   list-style-type: none;
 }
 
-.social li a {
+ul#social li a {
   color: #000;
   padding: 5px 4px;
 }
 
-.p-text {
+.copyright {
   display: flex;
-  float: center;
   justify-content: center;
 }
 
-.p-text p {
+.copyright-container {
   font-size: 16px;
   justify-content: center;
+  padding: 50px 0;
 }
