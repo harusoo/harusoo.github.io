@@ -40,6 +40,18 @@
           </ul>
         </nav>
       </header>
+
+      <header class="mobile-header">
+        <nav class="mobile-box twelve-column animated fadeIn">
+          <div class="logo">
+            <a href="index.html">HEUNGSOO KIM</a>
+          </div>
+          <div id="nav-menu" onclick="toggleNav()">
+				    <img src="assets/images/hamburger-menu.png" />
+			    </div>
+        </nav>
+      </header>
+
       <!-- Hero -->
       <section class="welcome">
         <div class="box eight-column animated fadeInUp">
@@ -50,12 +62,12 @@
         </div>
       </section>
       <!-- Project -->
-      <section class="iconplex-cloud-storage">
+      <section class="iconplex-cloud-storage" id="project-section">
         <div class="container">
           <div class="icplx-container">
             <div class="content">
-              <h2>IconPlex</h2>
-              <p>
+              <h2 class="project-name">IconPlex</h2>
+              <p class="summary">
                 IconPlex is a powerful cloud storage platform for creative minds and professionals to help building compelling works.
               </p>
               <div class="view-button">
@@ -74,8 +86,8 @@
         <div class="container">
           <div class="bloc-container">
             <div class="content">
-              <h2>Bloc Jams</h2>
-              <p>
+              <h2 class="project-name">Bloc Jams</h2>
+              <p class="summary">
                 Bloc Jams, as a web music player, provides smooth experience of listening to wonderful six pieces of music.
               </p>
               <div class="view-button">
@@ -83,9 +95,9 @@
               </div>
             </div>
           </div>
-          <div class="img-bloc">
-            <div class="bloc-box">
-              <img src="assets/images/bloc-jams.png" alt="Bloc Jams Case Study"></img>
+          <div id="bloc-jams-box" class="img-bloc">
+            <div class="img-box">
+              <img id="bloc-jams-player" src="assets/images/bloc-jams-player.jpg" alt="Bloc Jams Case Study"></img>
             </div>
           </div>
         </div>
@@ -94,7 +106,7 @@
       <section class="connect">
         <div class="connect-container">
           <div class="phrase">
-            <h2>LET'S GET CREATIVE</h2>
+            <h2 class="slogan">LET'S GET CREATIVE</h2>
           </div>
           <div class="connect-button">
             <a id="call" href="contact.html" class="button">Contact</a>
