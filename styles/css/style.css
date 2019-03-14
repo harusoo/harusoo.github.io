@@ -29,11 +29,10 @@ img {
   display: flex;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  height: 100px;
   justify-content: center;
   margin: 0 auto;
+  height: 100px;
   position: fixed;
-  top: 0;
   z-index: 1;
   width: 100%;
 }
@@ -94,15 +93,17 @@ img {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  position: relative;
-  height: 443px;
-  top: 100px;
+  padding: 100px 0;
+  padding-top: 150px;
+  position: sticky;
 }
 
 .box.eight-column {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 110px 0;
-  padding: 30px 0;
+  margin: 0 auto;
+  padding: 50px 0;
   width: 65%;
 }
 
@@ -119,8 +120,6 @@ h1 {
   justify-content: center;
   margin: 0 auto;
   position: sticky;
-  height: 557px;
-  top: 543px;
 }
 
 .container {
@@ -181,14 +180,13 @@ p {
   padding: 20px 0;
 }
 
+/** Bloc Jams **/
 .bloc-jams {
   background: #E5E5E5;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   position: sticky;
-  height: 557px;
-  top: 1100px;
 }
 
 .bloc-container {
@@ -216,22 +214,16 @@ p {
   background-color: #fff;
   display: flex;
   justify-content: center;
-  height: 240px;
   margin: 0 auto;
   position: sticky;
-  top: 1657px;
 }
 
 .connect-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 0;
+  padding: 100px 0;
   vertical-align: middle;
-}
-
-.phrase {
-  font-size: 36px;
 }
 
 .connect-button {
@@ -241,14 +233,13 @@ p {
 
 /* Footer */
 #footer {
-  background: #fff;
+  background: #000;
   display: flex;
   flex-direction: column;
-  height: 200px;
   justify-content: center;
   margin: 0 auto;
-  position: sticky;
-  top: 1857px;
+  width: 100%;
+  position: absolute;
 }
 
 .column {
@@ -257,6 +248,7 @@ p {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 30px;
 }
 
 ul#social {
@@ -270,17 +262,91 @@ ul#social li {
 }
 
 ul#social li a {
-  color: #000;
+  color: #fff;
   padding: 5px 4px;
 }
 
-.copyright {
+.copyright-container {
+  color: #fff;
   display: flex;
+  font-size: 12px;
   justify-content: center;
+  padding: 10px 0;
+  width: 100%;
 }
 
-.copyright-container {
-  font-size: 16px;
+p.copyright {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 50px 0;
+  color: #fff;
+  float: center;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+/** About **/
+.self-portrait {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: sticky;
+}
+
+.selfie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  position: center;
+}
+
+img.resize {
+  max-width: 300%;
+}
+
+.bottom-left {
+  color: #fff;
+  position: absolute;
+  bottom: 20%;
+}
+
+.bottom-left2 {
+  color: #fff;
+  position: absolute;
+  bottom: 1%;
+}
+
+/** Main **/
+.about {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: sticky;
+  padding: 20px 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  justify content: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.buttons.view-button {
+  display: flex;
+  justify-content: center;
+  margin: 10px 9px;
 }
