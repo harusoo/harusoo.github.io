@@ -23,6 +23,11 @@ img {
   max-width: 100%;
 }
 
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+}
+
 .wrapper {
   background: #fff;
   height: 100%;
@@ -438,7 +443,7 @@ h1.contact-message {
 }
 
 a.email {
-  color: #000;
+  color: #d96b6b;
   text-decoration: none;
 }
 
@@ -479,19 +484,75 @@ input[type=text], select, textarea {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 70px;
   position: sticky;
-  top: 100px;
 }
 
-.iconplex-cover {
-
-}
-.CatchPhrase {
+.phrase-box {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 0 auto;
 }
+.CatchPhrase {
+  color: #fff;
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+  position: absolute;
+  top: 25%;
+}
 
+.preview-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconplex-preview {
+  color: #fff;
+  display: flex;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+}
+
+
+.iconplex-button {
+  display: flex;
+  justify-content: center;
+}
+
+.prototype-button {
+  background: #4F4F4F;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 40px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  top: 40%;
+}
+
+/** IconPlex Summary **/
 .summary {
   display: flex;
   flex-direction: column;
@@ -500,13 +561,29 @@ input[type=text], select, textarea {
   position: sticky;
 }
 
+h3.iconplex-title {
+  text-align: center;
+}
+
+/** Problem Solution **/
 .problem-solution {
+  background: #E5E5E5;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   position: sticky;
 }
 
+.problem {
+  margin: 20px 0;
+  padding: 50px 0;
+}
+
+.solution {
+  margin: 20px 0;
+  padding: 50px 0;
+}
+/** Process **/
 .process {
   display: flex;
   flex-direction: column;
