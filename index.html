@@ -22,6 +22,18 @@
 
   <body>
     <section class="wrapper">
+      <!-- Mobile Header -->
+      <header class="mobile-header">
+        <nav class="mobile-box">
+          <div class="logo">
+            <a href="index.html">HEUNGSOO KIM</a>
+          </div>
+          <div class="burger-menu">
+            <img class="burger" src="assets/images/hamburger-menu.png" alt="burger-menu"></img>
+          </div>
+        </nav>
+      </header>
+
       <header class="header">
         <nav class="box twelve-column animated fadeIn">
           <div class="logo">
@@ -41,17 +53,6 @@
         </nav>
       </header>
 
-      <header class="mobile-header">
-        <nav class="mobile-box twelve-column animated fadeIn">
-          <div class="logo">
-            <a href="index.html">HEUNGSOO KIM</a>
-          </div>
-          <div id="nav-menu" onclick="toggleNav()">
-				    <img src="assets/images/hamburger-menu.png" />
-			    </div>
-        </nav>
-      </header>
-
       <!-- Hero -->
       <section class="welcome">
         <div class="box eight-column animated fadeInUp">
@@ -63,7 +64,7 @@
       </section>
       <!-- Project -->
       <section class="iconplex-cloud-storage" id="project-section">
-        <div class="container">
+        <div class="container container-project">
           <div class="icplx-container">
             <div class="content">
               <h2 class="project-name">IconPlex</h2>
@@ -77,13 +78,13 @@
           </div>
           <div class="img-icplx">
             <div class="img-box">
-              <img src="assets/images/laptop-view.png" alt="IconPlex Case Study"></img>
+              <img id="laptop" src="assets/images/laptop-view.png" alt="IconPlex Case Study"></img>
             </div>
           </div>
         </div>
       </section>
       <section class="bloc-jams">
-        <div class="container">
+        <div class="container container-project">
           <div class="bloc-container">
             <div class="content">
               <h2 class="project-name">Bloc Jams</h2>
@@ -116,7 +117,7 @@
       <!-- Footer -->
       <footer id="footer" class="footer-container">
         <div class="column">
-          <img src="assets/images/hk-white-logo.png"></img>
+          <img id="hk-logo" src="assets/images/hk-white-logo.png"></img>
           <ul id="social">
             <li>
               <a href="mailto:hkim450@gmail.com">
