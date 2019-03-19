@@ -135,8 +135,7 @@ h4 {
   }
 
   .content {
-    margin: 50px 0;
-    padding: 20px 0;
+
   }
 
   h2 {
@@ -186,10 +185,7 @@ h4 {
     margin: 20px 0;
   }
 
-  .img-box {
-    margin: 50px 0;
-    padding: 20px 0;
-  }
+
 
   /** Bloc Jams **/
   .bloc-jams {
@@ -209,11 +205,11 @@ h4 {
   #bloc-jams-box {
     display: flex;
     margin: 20px 0;
-    max-width: 50%;
+    max-width: 100%;
   }
 
   #bloc-jams-player {
-    margin: 50px 0;
+
     padding: 20px 0;
   }
 
@@ -328,7 +324,7 @@ h4 {
   }
 
   img.resize {
-    max-width: 300%;
+    max-width: 100%;
   }
 
   .bottom-left {
@@ -365,6 +361,10 @@ h4 {
     justify-content: flex-start;
   }
 
+  #ArtToDesign {
+    font-size: 30px;
+  }
+
   #about-content {
     display: flex;
     margin: 0 auto;
@@ -372,6 +372,10 @@ h4 {
   }
   .text-content {
     line-height: 1.4em;
+  }
+
+  #biography {
+    font-size: 20px;
   }
 
   .buttons {
@@ -391,10 +395,10 @@ h4 {
   .contact-hero {
     background: #E5E5E5;
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
     margin: 0 auto;
-    padding: 100px 0;
+    
     position: sticky;
   }
 
@@ -403,7 +407,8 @@ h4 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 50px;
+    padding: 50px 0;
+    width: 80%;
   }
 
   h1.contact-message {
@@ -998,7 +1003,8 @@ h4 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 70px;
+    width: 65%;
   }
 
   h1.contact-message {
@@ -1149,7 +1155,7 @@ h4 {
     margin-left: 30px;
     margin-right: 20px;
     padding: 50px 0;
-    width: 38%;
+    width: 37.5%;
   }
 
   .problem-title {
@@ -1162,7 +1168,7 @@ h4 {
     margin-left: 50px;
     margin-right: 30px;
     padding: 50px 0;
-    width: 38%;
+    width: 37.5%;
   }
   /** Process **/
   .process {
@@ -1193,6 +1199,8 @@ h4 {
     justify-content: center;
     margin: 0 auto;
     align-content: flex-start;
+    width: 85%;
+    padding: 20px 0;
   }
 
   .survey-data {
@@ -1223,34 +1231,36 @@ h4 {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-
+    justify-content: center;
   }
 
   .comp-text {
-    margin: 20px 0;
-    margin-left: 140px;
-    margin-right: 20px;
-    padding: 50px 0;
-    width: 38%;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 34%;
   }
 
   .competitors-logos {
-    margin: 20px 0;
-    margin-left: 50px;
-    margin-right: 30px;
-    padding: 50px 0;
-    width: 38%;
+    margin: 0 auto;
+    padding: 20px 0;
   }
 
-  .competitor {
-    padding: 10px 0;
+  img.competitor {
+    padding: 50px 0;
+    max-width: 80%;
   }
 
   .user-flows {
     background: #E5E5E5;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 
+  }
+
+  .userflows-img {
+    margin: 0 auto;
+    padding: 20px 0;
   }
 
   .section-title {
@@ -1261,21 +1271,53 @@ h4 {
 
   .wireframes {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     margin: 0 auto;
   }
 
+  .wireframes-img {
 
+    margin: 0 auto;
+  }
 
   .branding {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
+  }
 
+  .style-guide {
+    margin: 0 auto;
   }
 
   .user-testing {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
+  }
+
+  .user-preferences {
+    margin: 0 auto;
+  }
+
+  .prototype {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .prototype-img {
+    margin: 0 auto;
+  }
+
+  .prototype-button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
   .conclusion {
     display: flex;
@@ -1284,5 +1326,10 @@ h4 {
     margin: 0 auto;
     position: sticky;
   }
-
+  #conclusion-text {
+    padding: 40px 0;
+  }
+  #conclusion {
+    padding: 30px 0;
+  }
 }
