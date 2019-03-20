@@ -307,7 +307,7 @@ h4 {
 
   /** About **/
   .self-portrait {
-    background: #000;
+    background: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -379,16 +379,13 @@ h4 {
   }
 
   .buttons {
-    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
-    padding: 0 auto;
   }
 
-  .buttons.view-button {
-    margin: 0 auto;
-    padding: 20px 0;
+  .view-button {
+    margin: 20px 10px;
   }
 
   /** Contact **/
@@ -931,7 +928,7 @@ h4 {
 
   /** About **/
   .self-portrait {
-    background: #000;
+    background: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -996,11 +993,11 @@ h4 {
 
   .buttons {
     display: flex;
-
+    flex-direction: row;
   }
 
-  .buttons.view-button {
-
+  .view-button {
+    margin: 25px 15px;
   }
 
   /** Contact **/
@@ -1339,11 +1336,11 @@ h4 {
     margin: 0 auto;
   }
 
-  .prototype-images {
-    display: flex;
+  .protoype-images {
     justify-content: center;
     margin: 0 auto;
   }
+
   .prototype-img {
     justify-content: center;
     margin: 0 auto;
