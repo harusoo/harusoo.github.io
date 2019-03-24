@@ -29,14 +29,39 @@
           <div class="logo">
             <a href="index.html">HEUNGSOO KIM</a>
           </div>
-          <div class="burger-menu">
-            <img class="burger" src="assets/images/hamburger-menu.png" alt="burger-menu"></img>
-          </div>
+          <div id="burger-icon" class="navigation">
+
+             <span id="closebtn" onclick="navToggle()">
+             <span class="line1"></span>
+             <span class="line2"></span>
+             <span class="line3"></span>
+             </span>
+
+             <div class="hamburger">
+               <img src=""/>
+             </div>
+
+               <ul class="dropdown-nav">
+                 <li>
+                   <a class="menuitems" href="index.html">Work</a>
+                 </li>
+                 <li>
+                   <a class="menuitems" href="about.html">About</a>
+                 </li>
+                 <li>
+                   <a class="menuitems" href="contact.html">Contact</a>
+                 </li>
+               </ul>
+             <div id="main">
+             </div>
+
+         </div>
+
         </nav>
       </header>
 
       <header class="header">
-        <nav class="box twelve-column">
+        <nav class="box twelve-column animated fadeIn">
           <div class="logo">
             <a href="index.html">HEUNGSOO KIM</a>
           </div>
@@ -59,9 +84,11 @@
       <section class="intro">
         <div class="iconplex-image">
           <img class="iconplex-cover" src="assets/images/IconPlex/iconplex-cover.png"></img>
-          <div class="phrase-box"><h1 class="CatchPhrase">Your complex ideas easily come true</h1></div>
-          <div class="preview-box"><h2 class="iconplex-preview">IconPlex is a powerful cloud storage platform for creative minds<br>and professionals and professionals to help building compelling works.</h2></div>
-          <div class="iconplex-button"><a id="call" href="https://invis.io/YEOX7FJGA5X" class="prototype-button">View Prototype</a></div>
+          <div class="text-set">
+            <div class="phrase-box"><h1 class="CatchPhrase">Your complex ideas easily come true</h1></div>
+            <div class="preview-box"><h2 class="iconplex-preview">IconPlex is a powerful cloud storage platform for creative minds and professionals and professionals to help building compelling works.</h2></div>
+            <div class="iconplex-button"><a id="call" href="https://invis.io/YEOX7FJGA5X" class="prototype-button">View Prototype</a></div>
+          </div>
         </div>
       </section>
 
@@ -112,17 +139,20 @@
           <h3 class="iconplex-title">04 Process</h3>
         </div>
         <div class="survey">
-          <div id="user-survey" class="survey-content">
-            <h4 class="section-title">User Survey</h4>
-            <p>
-              User survey conducted for designers and creative professionals to find out what they think of cloud storage platform.
-            </p>
+          <div class="survey-box">
+            <div id="user-survey" class="survey-content">
+              <h4 class="section-title">User Survey</h4>
+              <p>
+                User survey conducted for designers and creative professionals to find out what they think of cloud storage platform.
+              </p>
+            </div>
+            <div class="survey-data">
+              <img class="graph" src="assets/images/Group2.png"></img>
+              <img class="graph" src="assets/images/Group3.png"></img>
+              <img class="graph" src="assets/images/Group4.png"></img>
+              <img class="graph" src="assets/images/Group5.png"></img>
+            </div>
           </div>
-          <div class="survey-data">
-            <img class="data" src="assets/images/Group2.png"></img>
-            <img class="data" src="assets/images/Group3.png"></img>
-            <img class="data" src="assets/images/Group4.png"></img>
-            <img class="data" src="assets/images/Group5.png"></img>
         </div>
         <div class="user-personas">
           <div id="user-persona" class="survey-content">
@@ -301,5 +331,6 @@
         </p>
       </footer>
     </section>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
