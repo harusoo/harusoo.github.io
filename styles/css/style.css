@@ -66,7 +66,7 @@ h4 {
 
       margin: 5px 0;
       padding: 5px 0;
-      width: ;
+      width: 30%;
     }
 
     .mobile-logo {
@@ -224,7 +224,7 @@ h4 {
     }
 
 
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 667px) {
     .header {
       display: none;
     }
@@ -612,17 +612,22 @@ h4 {
     display: flex;
     flex-direction: column;
     position: sticky;
-  }
-
-  .iconplex-image {
-    background: #000;
-    padding-top: 70px;
-    position: sticky;
+    top: 70px;
+    margin: 0 auto;
   }
 
   .text-set {
     display: flex;
     flex-direction: column;
+    background: #000;
+    padding:30px 0;
+  }
+
+  .iconplex-logo {
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 0;
+
   }
 
   .phrase-box {
@@ -631,33 +636,32 @@ h4 {
   }
 
   .CatchPhrase {
-    background: #000;
+
     color: #fff;
     display: flex;
     font-family: 'Oswald', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     justify-content: center;
     margin: 0 auto;
-    padding: 20px 0;
-    position: absolute;
-    top: 21%;
+    padding: 10px 0;
+
   }
 
   .iconplex-preview {
     color: #fff;
     display: flex;
     font-family: 'Abel', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 25px;
-    padding: 20px 0;
-    position: absolute;
+    padding: 10px 0;
     text-align: center;
-    top: 30%;
+
   }
 
   .iconplex-button {
     display: flex;
     justify-content: center;
+    padding: 10px 0;
   }
 
   .prototype-button {
@@ -669,11 +673,10 @@ h4 {
     font-size: 16px;
     font-weight: 600;
     padding: 15px 40px;
-    position: absolute;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    top: 70%;
+
   }
 
   /** IconPlex Summary **/
@@ -829,8 +832,20 @@ h4 {
     padding: 20px 0;
   }
 
+@media screen and (max-width:736px) {
+  .header {
+    display: none;
+  }
 
-@media screen and (min-width: 600px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
   .mobile-header {
     display: none;
   }
@@ -1259,8 +1274,8 @@ h4 {
   .intro {
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
     position: sticky;
+    top: 100px;
   }
 
   .iconplex-image {
@@ -1287,8 +1302,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     padding: 20px 0;
-    position: absolute;
-    top: 25%;
+
   }
 
   .preview-box {
@@ -1296,6 +1310,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px 0;
   }
 
   .iconplex-preview {
@@ -1308,10 +1323,10 @@ h4 {
     margin: 0 auto;
     padding: 20px 0;
     justify-content: center;
-    position: absolute;
+
     text-align: center;
-    top: 33%;
-    width: 80%;
+
+    width: 75%;
   }
 
 
@@ -1329,11 +1344,11 @@ h4 {
     font-size: 16px;
     font-weight: 600;
     padding: 15px 40px;
-    position: absolute;
+
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    top: 45%;
+
   }
 
   /** IconPlex Summary **/
@@ -1343,6 +1358,7 @@ h4 {
     justify-content: center;
     margin: 0 auto;
     position: sticky;
+    padding-top: 80px;
   }
 
   h3.iconplex-title {
