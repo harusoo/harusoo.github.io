@@ -606,6 +606,25 @@ h4 {
     padding: 20px;
   }
 
+  #send {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    background: #4F4F4F;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
   /***************************** Case Study  *****************************/
   /** IconPlex **/
   .intro {
@@ -837,7 +856,7 @@ h4 {
     display: none;
   }
 
-  
+
 }
 
 @media screen and (max-width: 768px) {
