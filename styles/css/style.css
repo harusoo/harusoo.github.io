@@ -51,7 +51,7 @@ h4 {
 }
 
 .header ul {
-  margin-right: 5%;
+  margin-right: 2%;
   padding: 0;
   list-style: none;
   overflow: hidden;
@@ -77,7 +77,7 @@ h4 {
   display: flex;
   float: left;
   font-size: 2em;
-  margin-left: 5%;
+  margin-left: 2%;
   padding: 10px 20px;
   text-decoration: none;
 }
