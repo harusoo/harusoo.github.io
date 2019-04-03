@@ -513,6 +513,7 @@ h4 {
 
   .about-content {
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
     padding: 20px 0;
   }
@@ -602,7 +603,7 @@ h4 {
     padding: 20px;
   }
 
-  #send {
+  .send {
     display: flex;
     justify-content: center;
   }
