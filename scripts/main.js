@@ -1,7 +1,7 @@
 var nav = document.getElementByClassName("navigation");
 var main = document.getElementById("main");
 var menu = document.getElementsByClassName("menuitems");
-var close = document.getElementByClass("closebtn");
+var close = document.getElementsByClass("closebtn");
 
 //default to measure if/else from
 nav.style.height = "50px";
