@@ -857,17 +857,15 @@ h4 {
     position: sticky;
   }
 
-  .container {
+  .container.container-project {
     align-items: center;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     width: 80%;
   }
 
-  .container-project {
-    display: flex;
-    flex-direction: row;
-  }
+
   .icplx-container {
     display: flex;
     margin: 20px 0;
