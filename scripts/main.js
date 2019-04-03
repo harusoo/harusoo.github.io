@@ -1,4 +1,4 @@
-var nav = document.getElementByClassName("navigation");
+var nav = document.getElementByClassName("burger-icon");
 var main = document.getElementById("main");
 var menu = document.getElementsByClassName("menuitems");
 var close = document.getElementsByClass("closebtn");
