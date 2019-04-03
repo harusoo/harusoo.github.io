@@ -792,7 +792,7 @@ h4 {
     padding: 20px 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .box.twelve-column {
     align-items: center;
     margin: 20px 0;
@@ -865,6 +865,7 @@ h4 {
   }
 
   .container-project {
+    display: flex;
     flex-direction: row;
   }
   .icplx-container {
