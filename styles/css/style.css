@@ -173,6 +173,9 @@ h4 {
   .header .menu-icon {
     display: none;
   }
+  .container-project {
+    display: flex;
+    flex-direction: column-reverse;
 }
  
 
