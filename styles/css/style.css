@@ -791,7 +791,8 @@ h4 {
   .iconplex-title {
     padding: 20px 0;
   }
-
+}
+@media screen and (min-width: 769px) {
   .box.twelve-column {
     align-items: center;
     margin: 20px 0;
