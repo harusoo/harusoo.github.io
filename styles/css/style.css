@@ -218,6 +218,11 @@ h4 {
   flex-direction: column-reverse;
 }
 
+@media screen and (min-width: 48em) {
+  .container-project {
+    flex-direction: row;
+  }
+}
 
   .icplx-container {
     display: flex;
