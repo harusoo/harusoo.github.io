@@ -316,6 +316,13 @@ h4 {
     align-items: center;
   }
 
+  @media screen and (min-width: 64em) {
+    .bloc-container {
+      margin-right: 15px;
+      width: 50%;
+    }
+  }
+
   .bloc-jams-box {
     display: flex;
     margin: 20px 0;
@@ -329,6 +336,7 @@ h4 {
 
 @media screen and (min-width: 48em) {
   .bloc-jams-box {
+    margin-left: 18px;
     width: 50%;
   }
   .bloc-jams-player {
@@ -646,7 +654,7 @@ h4 {
     color: #fff;
     display: flex;
     font-family: 'Oswald', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     justify-content: center;
     margin: 0 auto;
     padding: 10px 0;
@@ -662,7 +670,7 @@ h4 {
     color: #fff;
     display: flex;
     font-family: 'Abel', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 25px;
     padding: 10px 0;
     text-align: center;
