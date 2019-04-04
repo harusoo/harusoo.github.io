@@ -412,7 +412,6 @@ h4 {
 
   /** About **/
   .self-portrait {
-    background: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,24 +424,11 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    position: center;
-    padding-top: 70px;
+    padding-top: 60px;
   }
 
   img.resize {
     max-width: 100%;
-  }
-
-  .bottom-left {
-    color: #fff;
-    position: absolute;
-    bottom: 20%;
-  }
-
-  .bottom-left2 {
-    color: #fff;
-    position: absolute;
-    bottom: 1%;
   }
 
   /** About Main **/
@@ -457,14 +443,10 @@ h4 {
 
   .about-title {
     display: flex;
+    justify-content: flex-start;
     margin: 0 auto;
     padding: 20px 0;
-  }
-
-  .title {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    width: 80%;
   }
 
   .ArtToDesign {
@@ -476,6 +458,7 @@ h4 {
     flex-direction: column;
     margin: 0 auto;
     padding: 20px 0;
+    width: 80%;
   }
   .text-content {
     line-height: 1.4em;
@@ -484,6 +467,24 @@ h4 {
   .biography {
     font-size: 20px;
   }
+
+@media screen and (min-width: 75em) {
+  .about-title {
+    width: 75%;
+  }
+  .about-content {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .about-title {
+    width: 64%;
+  }
+  .about-content {
+    width: 64%;
+  }
+}
 
   .buttons {
     justify-content: center;
