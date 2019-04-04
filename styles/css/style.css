@@ -734,6 +734,7 @@ h4 {
 
   .solution {
     display: flex;
+    flex-direction: column;
     justify-conent: center;
     margin: 0 auto;
     padding: 20px 0;
