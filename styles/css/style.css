@@ -296,7 +296,8 @@ h4 {
 
 @media screen and (min-width: 48em) {
   .laptop {
-    width: 120%;
+    margin: 30% 0;
+    max-width: 120%;
   }
 }
 
@@ -315,6 +316,12 @@ h4 {
     margin: 20px 0;
     align-items: center;
   }
+
+  @media screen and (min-width: 48em) {
+    .bloc-container {
+      width: 50%;
+    }  
+  } 
 
   @media screen and (min-width: 64em) {
     .bloc-container {
@@ -340,6 +347,7 @@ h4 {
     width: 50%;
   }
   .bloc-jams-player {
+    margin: 30% 0;
     width: 100%;
   }
 }
