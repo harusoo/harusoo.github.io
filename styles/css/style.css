@@ -537,6 +537,18 @@ h4 {
     width: 100%;
   }
 
+  @media screen and (min-width: 48em) {
+    .contact-form {
+      width: 85%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+    .contact-form {
+      width: 83%;
+    }
+  }
+
   .contact-form input {
     font-family: "Abel", sans-serif;
     font-size: 1em;
