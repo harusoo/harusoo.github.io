@@ -277,6 +277,11 @@ h4 {
     margin: 20px 0;
   }
 
+@media screen and (min-width: 48em) {
+  .laptop {
+    width: 120%;
+  }
+}
 
 
   /** Bloc Jams **/
@@ -304,6 +309,16 @@ h4 {
 
     padding: 20px 0;
   }
+
+@media screen and (min-width: 48em) {
+  .bloc-jams-box {
+    width: 50%;
+  }
+  .bloc-jams-player {
+    width: 100%;
+  }
+}
+
  /* Connect */
   .connect {
     background-color: #fff;
