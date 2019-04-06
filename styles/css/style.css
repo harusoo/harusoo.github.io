@@ -511,6 +511,15 @@ h4 {
     font-size: 20px;
   }
 
+@media screen and (min-width: 64em) {
+  .about-title {
+    width: 65%;
+  }
+  .about-content {
+    width: 65%;
+  }
+}
+
 @media screen and (min-width: 75em) {
   .about-title {
     width: 60%;
@@ -559,6 +568,14 @@ h4 {
     padding-top: 100px;
     width: 80%;
   }
+  
+  @media screen and (min-width: 64em){
+    .contact-box.eight-column {
+      padding: 10% 0;
+      padding-top: 12%;
+      width: 65%;
+    }
+  }
 
   h1.contact-message {
     color: #000;
@@ -583,6 +600,12 @@ h4 {
   @media screen and (min-width: 48em) {
     .contact-form {
       width: 85%;
+    }
+  }
+
+  @media screen and (min-width: 64em) {
+    .contact-form {
+      width: 65%;
     }
   }
 
