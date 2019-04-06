@@ -249,6 +249,7 @@ h4 {
   .container-project {
     flex-direction: row;
     align-content: center;
+    width: 70%;
   }
 }
 
