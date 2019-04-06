@@ -577,6 +577,12 @@ h4 {
     }
   }
 
+  @media screen and (min-width: 90em){
+    .contact-box.eight-column {
+      width: 50%;
+    }
+  }
+
   h1.contact-message {
     color: #000;
     font-family: 'Oswald', sans-serif;
@@ -611,7 +617,7 @@ h4 {
 
   @media screen and (min-width: 90em) {
     .contact-form {
-      width: 83%;
+      width: 50%;
     }
   }
 
@@ -640,6 +646,18 @@ h4 {
 
   .box-form {
     padding: 20px;
+  }
+
+  @media screen and (min-width: 64em){
+    .box-form {
+      padding: 0px;
+    }
+  }
+
+  @media screen and )(min-width: 90em){
+    .box-form {
+      padding: 0px;
+    }  
   }
 
   .send {
