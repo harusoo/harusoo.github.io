@@ -815,7 +815,7 @@ h4 {
   .solution {
     display: flex;
     flex-direction: column;
-    justify-conent: center;
+    justify-content: center;
     margin: 0 auto;
     padding: 20px 0;
     width: 80%;
@@ -852,6 +852,12 @@ h4 {
     }    
   }
 
+  @media screen and (min-width: 62.5em) {
+    .survey-content {
+      width: 100%
+    }
+  }
+
   .user-personas {
     margin: 0 auto;
     padding: 50px 0;
@@ -871,7 +877,9 @@ h4 {
     .personas {
       display: flex;
       flex-direction: row;
+      justify-content: center;
       margin: 0 auto;
+      width: 100%;
     }
   }
 
@@ -916,6 +924,14 @@ h4 {
     }
   }
 
+  @media screen and (min-width: 62em) {
+    .survey-data.bigger-screen {
+      flex-direction: row;
+      margin: 0 auto;
+      justify-content: center;
+    }
+  }
+
   .graph {
     padding: 30px 0;
   }
@@ -950,6 +966,12 @@ h4 {
     width: 77%;
   }
 
+  @media screen and (min-width: 62em) {
+    .comp-text {
+      width: 100%;
+    }
+  }
+
   .competitors-logos {
     display: flex;
     flex-direction: column;
@@ -971,6 +993,12 @@ h4 {
     margin: 0 auto;
   }
 
+  @media screen and (min-width: 62.5em) {
+    .competitor {
+      width: 100%;
+    }
+  } 
+
   .user-flows {
     padding: 50px 0;
   }
@@ -982,9 +1010,22 @@ h4 {
   }
 
   @media screen and (min-width: 62.5em) {
+    .userflows-img {
+      padding: 5% 0;
+    }
+  }
+
+  @media screen and (min-width: 62.5em) {
     .wireframes {
       margin: 0 auto;
       width: 65%;
+    }
+  }
+
+  @media screen and (min-width: 62.5em) {
+    .wireframes-img {
+      margin: 0 auto;
+      justify-content: center;
     }
   }
 
@@ -998,7 +1039,14 @@ h4 {
       width: 65%;
     }
   }
-  
+
+  @media screen and (min-width: 62.5em) {
+    .style-guide {
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+
   @media screen and (min-width: 62.5em) {
     .user-testing {
       margin: 0 auto;
@@ -1006,13 +1054,31 @@ h4 {
     }
   }
 
+  @media screen and (min-widith: 62.5em) {
+    .user-preferences {
+      justify-content: center;
+      margin: 0 auto;
+      padding: 5% 0;
+    }
+  }
+
   .prototype {
+    justify-content: center;
+    margin: 0 auto;
     padding: 50px 0;
   }
   
   @media screen and (min-width: 62.5em) {
     .prototype {
       width: 65%;
+    }
+  }
+
+  @media screen and (min-width: 62.5em) {
+    .prototype-images {
+      justify-content: center;
+      margin: 0 auto;
+      padding: 5% 0;
     }
   }
 
@@ -1030,6 +1096,17 @@ h4 {
     margin: 0 auto;
     position: sticky;
     padding: 50px 0;
+  }
+
+  .conclusion-text {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 62.5em) {
+    .conclusion-text {
+      width: 65%;
+    }
   }
 
   .iconplex-title {
