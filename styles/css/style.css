@@ -603,24 +603,6 @@ h4 {
     width: 100%;
   }
 
-  @media screen and (min-width: 48em) {
-    .contact-form {
-      width: 85%;
-    }
-  }
-
-  @media screen and (min-width: 62em) {
-    .contact-form {
-      width: 65%;
-    }
-  }
-
-  @media screen and (min-width: 90em) {
-    .contact-form {
-      width: 50%;
-    }
-  }
-
   .contact-form input {
     font-family: "Abel", sans-serif;
     font-size: 1em;
@@ -647,6 +629,12 @@ h4 {
   .box-form {
     margin: 0 auto;
     padding: 20px 0;
+  }
+
+  @media screen and (min-width: 48em) {
+    .box-form {
+      width: 85%;
+    }
   }
 
   @media screen and (min-width: 62em){
