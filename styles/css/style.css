@@ -643,7 +643,7 @@ h4 {
     }
   }
 
-  @media screen and )(min-width: 90em){
+  @media screen and (min-width: 90em){
     .box-form {
       width: 50%;
     }  
@@ -888,7 +888,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;
+    
   }
 
   .survey-data {
@@ -1000,11 +1000,12 @@ h4 {
   } 
 
   .user-flows {
+    margin: 0 auto;
     padding: 50px 0;
   }
 
   @media screen and (min-width: 62.5em) {
-    .user-flow {
+    .user-flows {
       width: 65%;
     }
   }
@@ -1026,6 +1027,7 @@ h4 {
     .wireframes-img {
       margin: 0 auto;
       justify-content: center;
+      padding: 5% 0;
     }
   }
 
@@ -1054,7 +1056,7 @@ h4 {
     }
   }
 
-  @media screen and (min-widith: 62.5em) {
+  @media screen and (min-width: 62.5em) {
     .user-preferences {
       justify-content: center;
       margin: 0 auto;
@@ -1083,9 +1085,10 @@ h4 {
   }
 
   .prototypeButton {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    padding-top: 50px;
-    width: 54%;
+    padding: 2% 0;
   }
 
   .conclusion {
