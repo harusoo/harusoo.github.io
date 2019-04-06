@@ -513,19 +513,19 @@ h4 {
 
 @media screen and (min-width: 75em) {
   .about-title {
-    width: 75%;
+    width: 60%;
   }
   .about-content {
-    width: 75%;
+    width: 60%;
   }
 }
 
 @media screen and (min-width: 90em) {
   .about-title {
-    width: 64%;
+    width: 55%;
   }
   .about-content {
-    width: 64%;
+    width: 55%;
   }
 }
 
