@@ -599,7 +599,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 50px;
+    padding: 50px 0;
     width: 100%;
   }
 
@@ -784,6 +784,7 @@ h4 {
   @media screen and (min-width: 62.5em) {
     .summary-text {
       padding: 7% 0;
+      width: 65%;
     }
   }
 
@@ -810,6 +811,12 @@ h4 {
     width: 80%;
   }
 
+  @media screen and (min-width: 62.5em) {
+    .problem {
+      width: 65%;
+    }
+  }
+  
   .problem-title {
     display: flex;
     justify-content: flex-start;
@@ -823,6 +830,12 @@ h4 {
     margin: 0 auto;
     padding: 20px 0;
     width: 80%;
+  }
+
+  @media screen and (min-width: 62.5em) {
+    .solution {
+      width: 65%;
+    }
   }
 
   /** Process **/
@@ -843,10 +856,22 @@ h4 {
     padding: 50px 0;
     padding-top: 10px;
   }
+  
+  @media screen and (min-width: 62.5em) {
+    .survey {
+      width: 65%
+    }    
+  }
 
   .user-personas {
     margin: 0 auto;
     padding: 50px 0;
+  }
+
+  @media screen and (min-width: 62.5em) {
+    .user-personas {
+      width: 65%;
+    }
   }
 
   .personas {
@@ -855,10 +880,12 @@ h4 {
 
   @media screen and (min-width: 62em) {
     .personas {
+      display: flex;
+      flex-direction: row;
       margin: 0 auto;
-      width: 75%;
     }
   }
+
   .survey-content {
     display: flex;
     flex-direction: column;
@@ -915,7 +942,12 @@ h4 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+  }
 
+  @media screen and (min-width: 62.5em) {
+    .competitive-analysis {
+      width: 65%;
+    }
   }
 
   .section-title {
@@ -937,6 +969,13 @@ h4 {
     padding: 5% 0;
   }
 
+  @media screen and (min-width: 62.5em) {
+    .competitors-logos {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
   .competitor {
     padding: 10px 0;
     width: 77%;
@@ -947,12 +986,45 @@ h4 {
     padding: 50px 0;
   }
 
+  @media screen and (min-width: 62.5em) {
+    .user-flow {
+      width: 65%;
+    }
+  }
+
+  @media screen and (min-width: 62.5em) {
+    .wireframes {
+      margin: 0 auto;
+      width: 65%;
+    }
+  }
+
   .branding {
     padding: 50px 0;
   }
 
+  @media screen and (min-width: 62.5em) {
+    .branding {
+      margin: 0 auto;
+      width: 65%;
+    }
+  }
+  
+  @media screen and (min-width: 62.5em) {
+    .user-testing {
+      margin: 0 auto;
+      width: 65%;
+    }
+  }
+
   .prototype {
     padding: 50px 0;
+  }
+  
+  @media screen and (min-width: 62.5em) {
+    .prototype {
+      width: 65%;
+    }
   }
 
   .prototypeButton {
@@ -960,6 +1032,7 @@ h4 {
     padding-top: 50px;
     width: 54%;
   }
+
   .conclusion {
     background: #e5e5e5;
     display: flex;
