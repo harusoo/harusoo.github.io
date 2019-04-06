@@ -208,13 +208,23 @@ h4 {
   @media screen and (min-width: 64em) {
     .box.eight-column {
       padding: 10% 0;
+      padding-top: 12%;
+      width: 70%;
     }
   }
+
   h1 {
     color: #fff;
     font-family: 'Abel', sans-serif;
     font-size: 24px;
   }
+
+  @media screen and (min-width: 64em) {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
 /* Project */
   .iconplex-cloud-storage {
     background: #fff;
@@ -238,6 +248,7 @@ h4 {
 @media screen and (min-width: 48em) {
   .container-project {
     flex-direction: row;
+    align-content: center;
   }
 }
 
@@ -296,7 +307,6 @@ h4 {
 
 @media screen and (min-width: 48em) {
   .laptop {
-    margin: 30% 0;
     max-width: 120%;
   }
 }
@@ -343,12 +353,11 @@ h4 {
 
 @media screen and (min-width: 48em) {
   .bloc-jams-box {
-    margin-left: 18px;
+    margin-left: 10%;
     width: 50%;
   }
   .bloc-jams-player {
-    margin: 30% 0;
-    width: 100%;
+    width: 110%;
   }
 }
 
