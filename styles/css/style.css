@@ -569,7 +569,7 @@ h4 {
     width: 80%;
   }
   
-  @media screen and (min-width: 64em){
+  @media screen and (min-width: 62em){
     .contact-box.eight-column {
       padding: 10% 0;
       padding-top: 12%;
@@ -609,7 +609,7 @@ h4 {
     }
   }
 
-  @media screen and (min-width: 64em) {
+  @media screen and (min-width: 62em) {
     .contact-form {
       width: 65%;
     }
@@ -645,18 +645,19 @@ h4 {
   }
 
   .box-form {
-    padding: 20px;
+    margin: 0 auto;
+    padding: 20px 0;
   }
 
-  @media screen and (min-width: 64em){
+  @media screen and (min-width: 62em){
     .box-form {
-      padding: 0px;
+      width: 65%;
     }
   }
 
   @media screen and )(min-width: 90em){
     .box-form {
-      padding: 0px;
+      width: 50%;
     }  
   }
 
