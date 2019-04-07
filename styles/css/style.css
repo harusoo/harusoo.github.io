@@ -968,7 +968,7 @@ h4 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 77%;
+    width: 80%;
   }
 
   @media screen and (min-width: 62em) {
@@ -1062,7 +1062,7 @@ h4 {
     }
   }
 
-  .user-testin {
+  .user-testing {
     margin: 0 auto;
     width: 80%;
   }
@@ -1123,6 +1123,7 @@ h4 {
   .conclusion-text {
     justify-content: center;
     margin: 0 auto;
+    width: 80%;
   }
 
   @media screen and (min-width: 62.5em) {
