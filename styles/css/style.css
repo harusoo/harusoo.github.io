@@ -841,9 +841,12 @@ h4 {
   }
 
   .survey {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 50px 0;
     padding-top: 10px;
+    width: 80%;
   }
   
   @media screen and (min-width: 62.5em) {
@@ -861,6 +864,7 @@ h4 {
   .user-personas {
     margin: 0 auto;
     padding: 50px 0;
+    width: 80%;
   }
 
   @media screen and (min-width: 62.5em) {
@@ -1002,6 +1006,7 @@ h4 {
   .user-flows {
     margin: 0 auto;
     padding: 50px 0;
+    width: 80%;
   }
 
   @media screen and (min-width: 62.5em) {
@@ -1014,6 +1019,11 @@ h4 {
     .userflows-img {
       padding: 5% 0;
     }
+  }
+
+  .wireframes {
+    margin: 0 auto;
+    width: 80%;
   }
 
   @media screen and (min-width: 62.5em) {
@@ -1032,7 +1042,9 @@ h4 {
   }
 
   .branding {
+    margin: 0 auto;
     padding: 50px 0;
+    width: 80%;
   }
 
   @media screen and (min-width: 62.5em) {
@@ -1047,6 +1059,11 @@ h4 {
       justify-content: center;
       margin: 0 auto;
     }
+  }
+
+  .user-testin {
+    margin: 0 auto;
+    width: 80%;
   }
 
   @media screen and (min-width: 62.5em) {
@@ -1068,6 +1085,7 @@ h4 {
     justify-content: center;
     margin: 0 auto;
     padding: 50px 0;
+    width: 80%;
   }
   
   @media screen and (min-width: 62.5em) {
