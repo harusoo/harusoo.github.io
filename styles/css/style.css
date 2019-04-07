@@ -629,6 +629,7 @@ h4 {
   .box-form {
     margin: 0 auto;
     padding: 20px 0;
+    width: 80%;
   }
 
   @media screen and (min-width: 48em) {
