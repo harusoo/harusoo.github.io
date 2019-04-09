@@ -173,6 +173,17 @@ h4 {
   }
 }
 
+.header_wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+@media screen and (min-width: 64em) {
+  .header_wrapper {
+    width: 80%;
+  }
+}
+
  /* Hero */
   .welcome {
     background: #000;
@@ -209,20 +220,30 @@ h4 {
     .box.eight-column {
       padding: 10% 0;
       padding-top: 12%;
-      width: 70%;
+      width: 55%;
     }
   }
 
   h1 {
     color: #fff;
-    font-family: 'Abel', sans-serif;
-    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
   }
 
-  @media screen and (min-width: 64em) {
-    h1 {
-      font-size: 40px;
-    }
+  .hero_text {
+    color: #fff;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .accent {
+    color: #d96b6b;
+  }
+
+  .accent2 {
+    color: #d96b6b;
   }
 
 /* Project */
@@ -270,8 +291,8 @@ h4 {
   }
 
   p {
-    font-family: 'Abel', sans-serif;
-    font-size: 24px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 22px;
     line-height: 1.2em;
     padding: 10px 0;
     width: 100%;
