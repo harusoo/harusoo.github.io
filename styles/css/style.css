@@ -954,6 +954,11 @@ h4 {
     margin-left: 20px;
   }
 
+  .frustrations {
+    font-size: 24px;
+    font-weight: 550;
+  }
+
   .survey-content {
     display: flex;
     flex-direction: column;
