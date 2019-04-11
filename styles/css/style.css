@@ -275,8 +275,14 @@ h4 {
 }
 
 @media screen and (min-width: 118em){
-  .containter-project {
-      width: 64%;
+  .container-project {
+      width: 67%;
+  }
+}
+
+@media screen and (min-width: 120em) {
+  .container-project {
+    width: 63%;
   }
 }
 
