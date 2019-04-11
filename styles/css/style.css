@@ -274,6 +274,12 @@ h4 {
   }
 }
 
+@media screen and (min-width: 118em){
+  .containter-project {
+      width: 64%;
+  }
+}
+
   .icplx-container {
     display: flex;
     margin: 20px 0;
