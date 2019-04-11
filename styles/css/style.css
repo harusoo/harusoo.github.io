@@ -542,21 +542,24 @@ h4 {
     line-height: 1.4em;
   }
 
-  .paintings {
+  .paintings,
+  .industrial-design {
     padding: 20px 0;
   }
 
   @media screen and (min-width: 62em) {
-    .paintings {
+    .paintings,
+    .indsutrial-design {
       display: flex;
       width: 100%;
     }
   }
   
-  .artwork {
+  .artwork,
+  .designworks {
     margin: 5px;
   }
-
+  
   .biography {
     font-size: 20px;
   }
