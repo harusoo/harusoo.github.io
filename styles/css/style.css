@@ -561,6 +561,13 @@ h4 {
   }
 }
 
+@media screen and (min-width: 100em){
+  .about-title,
+  .about-content {
+    width: 45%;
+  }
+}
+
   .buttons {
     justify-content: center;
     display: flex;
