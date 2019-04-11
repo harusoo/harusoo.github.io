@@ -1117,6 +1117,7 @@ h4 {
   .competitor-box {
     margin: 5px;
     padding: 10px;
+    text-align: center;
   }
 
   .competitor {
