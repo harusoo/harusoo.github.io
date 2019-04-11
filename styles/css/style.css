@@ -1080,6 +1080,11 @@ h4 {
     }
   }
 
+  .competitor-box {
+    margin: 5px;
+    padding: 10px;
+  }
+
   .competitor {
     padding: 10px 0;
     width: 77%;
