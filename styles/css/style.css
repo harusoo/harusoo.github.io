@@ -949,7 +949,6 @@ h4 {
   }
 
   .persona-box {
-    background: #e5e5e5;
     margin: 10px 0;
     padding: 25px;
     position: relative;
@@ -1206,6 +1205,8 @@ h4 {
   .brand-guide {
     display: block;
     margin: 0 auto;
+    padding: 3% 0;
+    width: 100%;
   }
   .user-testing {
     margin: 0 auto;
