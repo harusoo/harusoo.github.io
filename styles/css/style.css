@@ -952,10 +952,17 @@ h4 {
     background: #e5e5e5;
     margin: 10px 0;
     padding: 25px;
+    position: relative;
   }
 
-  .persona-box:last-child {
+  .persona-box:last-child::after {
     border-left: 1px solid black;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
   }
   .persona-img {
     text-align: center;
