@@ -954,7 +954,7 @@ h4 {
     position: relative;
   }
 
-  @media screen and (min-width: 62.5em) {
+  @media screen and (min-width: 62em) {
     .persona-box:last-child::after {
       border-left: 1px solid black;
       content: '';
