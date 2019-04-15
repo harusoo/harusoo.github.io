@@ -954,6 +954,9 @@ h4 {
     padding: 25px;
   }
 
+  .persona-box:last-child {
+    border-left: 1px solid black;
+  }
   .persona-img {
     text-align: center;
   }
