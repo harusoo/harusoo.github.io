@@ -954,15 +954,18 @@ h4 {
     position: relative;
   }
 
-  .persona-box:last-child::after {
-    border-left: 1px solid black;
-    content: '';
-    display: block;
-    position: absolute;
-    top: 5%;
-    bottom: 5%;
-    left: 0;
+  @media screen and (min-width: 62.5em) {
+    .persona-box:last-child::after {
+      border-left: 1px solid black;
+      content: '';
+      display: block;
+      position: absolute;
+      top: 5%;
+      bottom: 5%;
+      left: 0;
+    }
   }
+
   .persona-img {
     text-align: center;
   }
