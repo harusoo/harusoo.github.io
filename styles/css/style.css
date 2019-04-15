@@ -960,8 +960,8 @@ h4 {
     content: '';
     display: block;
     position: absolute;
-    top: 10%;
-    bottom: 10%;
+    top: 5%;
+    bottom: 5%;
     left: 0;
   }
   .persona-img {
@@ -1203,6 +1203,10 @@ h4 {
     }
   }
 
+  .brand-guide {
+    display: block;
+    margin: 0 auto;
+  }
   .user-testing {
     margin: 0 auto;
     width: 80%;
