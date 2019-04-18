@@ -1037,7 +1037,7 @@ h4 {
   .survey-data {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    
   }
   
   .chart1, .chart2, .chart3, .chart4 {
