@@ -31,7 +31,7 @@ var myChart2 = new Chart(ctx, {
         labels: ['Real-time collaboration useful', 'Real-time collaboration not useful'],
         datasets: [{
             label: '# of Votes',
-            data: [72.2, 22.8],
+            data: [77.8, 22.2],
             backgroundColor: [
                 'rgba(135, 131, 209, 0.8)',
                 'rgba(178, 226, 242, 0.8)'
@@ -57,7 +57,7 @@ var myChart3 = new Chart(ctx, {
         labels: ['Uses cloud storage', 'Does not use cloud storage'],
         datasets: [{
             label: '# of Votes',
-            data: [72.2, 22.8],
+            data: [81.8, 18.2],
             backgroundColor: [
                 'rgba(135, 131, 209, 0.8)',
                 'rgba(178, 226, 242, 0.8)'
@@ -83,7 +83,7 @@ var myChart4 = new Chart(ctx, {
         labels: ['Necessary for work', 'Unnecessary for work'],
         datasets: [{
             label: '# of Votes',
-            data: [72.2, 22.8],
+            data: [68.2, 31.8],
             backgroundColor: [
                 'rgba(135, 131, 209, 0.8)',
                 'rgba(178, 226, 242, 0.8)'
