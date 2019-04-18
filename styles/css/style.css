@@ -1055,19 +1055,19 @@ h4 {
 
   @media screen and (min-width: 31.25em) {
     .survey-data {
-      width: 40%;
+      width: %;
     }
   }
 
   @media screen and (min-width: 37.5em) {
     .survey-data {
-      width: 35%;
+      width: %;
     }
   }
 
   @media screen and (min-width: 42em) {
     .survey-data {
-      width: 30%;
+      width: %;
     }
   }
 
