@@ -1046,11 +1046,12 @@ h4 {
   
   @media screen and (min-width: 62em) {
     .chart1, .chart2, .chart3, .chart4 {
+      margin-top: 3%;
       padding: 0%;
       width: 20%;
     }
     .chart2, .chart3, .chart4 {
-      margin-left: 2%;
+      margin-left: 6%;
     }
   }
 
@@ -1090,6 +1091,7 @@ h4 {
 
   .chart-text {
     font-size: 16px;
+    padding-top: 10%;
     text-align: center;
   }
 
