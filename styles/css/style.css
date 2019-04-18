@@ -1092,13 +1092,6 @@ h4 {
     padding-top: 10%;  
   }
 
-  @media screen and (min-width: 62em) {
-    .chart-text {
-      display: flex;
-      flex-direction: row;
-    }
-  }
-
   .graph {
     padding: 30px 0;
   }
