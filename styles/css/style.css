@@ -1084,6 +1084,7 @@ h4 {
       flex-direction: row;
       margin: 0 auto;
       justify-content: center;
+      width: 25%;
     }
   }
 
