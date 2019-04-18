@@ -1,5 +1,5 @@
 var ctx = document.getElementById('myChart1').getContext('2d');
-var myChart = new Chart(ctx, {
+var myChart1 = new Chart(ctx, {
     type: 'pie',
     data: {
         labels: ['Open to networking', 'Not open to networking'],
@@ -25,7 +25,7 @@ var myChart = new Chart(ctx, {
 });
 
 var ctx = document.getElementById('myChart2').getContext('2d');
-var myChart = new Chart(ctx, {
+var myChart2 = new Chart(ctx, {
     type: 'pie',
     data: {
         labels: ['Real-time collaboration useful', 'Real-time collaboration not useful'],
@@ -51,7 +51,7 @@ var myChart = new Chart(ctx, {
 });
 
 var ctx = document.getElementById('myChart3').getContext('2d');
-var myChart = new Chart(ctx, {
+var myChart3 = new Chart(ctx, {
     type: 'pie',
     data: {
         labels: ['Uses cloud storage', 'Does not use cloud storage'],
@@ -77,7 +77,7 @@ var myChart = new Chart(ctx, {
 });
 
 var ctx = document.getElementById('myChart4').getContext('2d');
-var myChart = new Chart(ctx, {
+var myChart4 = new Chart(ctx, {
     type: 'pie',
     data: {
         labels: ['Necessary for work', 'Unnecessary for work'],
