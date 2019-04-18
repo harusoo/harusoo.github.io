@@ -1038,9 +1038,19 @@ h4 {
     flex-direction: column;
     margin: 0 auto;
   }
-
+  
   .chart1, .chart2, .chart3, .chart4 {
-    width: 25%;
+    margin: 0 auto;
+    padding: 10%;
+  }
+  
+  @media screen and (min-width: 62em) {
+    .chart1, .chart2, .chart3, .chart4 {
+      width: 25%;
+    }
+    .chart2, .chart3, .chart4 {
+      margin-left: 2%;
+    }
   }
 
   @media screen and (min-width: 31.25em) {
