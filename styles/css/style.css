@@ -837,6 +837,54 @@ h4 {
     }
   }
 
+  @media screen and (min-width: 75em) {
+    .summary-text, 
+    .problem, 
+    .solution,
+    .user-personas,
+    .competitive-analysis,
+    .user-flows,
+    .wireframes,
+    .branding,
+    .user-testing,
+    .prototype,
+    .conclustion-text {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+    .summary-text,
+    .problem, 
+    .solution,
+    .user-personas,
+    .competitive-analysis,
+    .user-flows,
+    .wireframes,
+    .branding,
+    .user-testing,
+    .prototype,
+    .conclustion-text {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+    .summary-text,
+    .problem, 
+    .solution,
+    .user-personas,
+    .competitive-analysis,
+    .user-flows,
+    .wireframes,
+    .branding,
+    .user-testing,
+    .prototype,
+    .conclustion-text {
+      width: 45%;
+    }
+  }
+
   h3.iconplex-title {
     text-align: center;
   }
