@@ -1190,7 +1190,7 @@ h4 {
     }
   }
 
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .competitive-analysis {
       width: 60%;
     }
