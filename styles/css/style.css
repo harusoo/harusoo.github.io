@@ -879,7 +879,7 @@ h4 {
   }
 
   @media screen and (min-width: 62.5em) {
-    .problem, .solution {
+    .problem {
       width: 65%;
     }
   }
@@ -891,13 +891,13 @@ h4 {
   }
 
   @media screen and (min-width: 90em) {
-     .problem, .solution {
+     .problem {
       width: 55%;
     }
   }
 
   @media screen and (min-width: 100em) {
-     .problem, .solution {
+     .problem {
       width: 45%;
     }
   }
@@ -920,6 +920,24 @@ h4 {
   @media screen and (min-width: 62.5em) {
     .solution {
       width: 65%;
+    }
+  }
+
+  @media screen and (min-wdith: 75em) {
+    .solution {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .solution {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .solution {
+      width: 45%;
     }
   }
 
@@ -953,19 +971,19 @@ h4 {
   }
 
   @media screen and (min-width: 75em) {
-    .survey, .user-personas, .competitive-analysis, .user-flows, .wireframes, .branding, .user-testing, .prototype {
+    .survey {
       width: 60%;
     }
   }
 
   @media screen and (min-width: 90em) {
-    .survey, .user-personas, .competitive-analysis, .user-flows, .wireframes, .branding, .user-testing, .prototype {
+    .survey {
       width: 55%;
     }
   }
 
   @media screen and (min-width: 100em) {
-    .survey, .user-personas, .competitive-analysis, .user-flows, .wireframes, .branding, .user-testing, .prototype {
+    .survey {
       width: 45%;
     }
   }
@@ -982,6 +1000,24 @@ h4 {
     }
   }
 
+  @media screen and (min-wdith: 75em) {
+    .user-personas {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .user-personas {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .user-personas {
+      width: 45%;
+    }
+  }
+
   .personas {
     padding: 20px 0;
   }
@@ -992,7 +1028,6 @@ h4 {
       flex-direction: row;
       justify-content: center;
       margin: 0 auto;
-      width: 100%;
     }
   }
 
@@ -1133,7 +1168,6 @@ h4 {
       flex-direction: row;
       margin: 0 auto;
       justify-content: center;
-      width: 100%
     }
   }
 
@@ -1141,16 +1175,6 @@ h4 {
     font-size: 16px;
     padding-top: 10%;
     text-align: center;
-  }
-
-  .graph {
-    padding: 30px 0;
-  }
-
-  @media screen and (min-width: 62em) {
-    .graph {
-      margin: 7px;
-    }
   }
 
   .competitive-analysis {
@@ -1163,6 +1187,24 @@ h4 {
   @media screen and (min-width: 62.5em) {
     .competitive-analysis {
       width: 65%;
+    }
+  }
+
+  @media screen and (min-wdith: 75em) {
+    .competitive-analysis {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .competitive-analysis {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .competitive-analysis {
+      width: 45%;
     }
   }
 
@@ -1227,6 +1269,24 @@ h4 {
     }
   }
 
+  @media screen and (min-wdith: 75em) {
+    .user-flows {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .user-flows {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .user-flows {
+      width: 45%;
+    }
+  }
+
   @media screen and (min-width: 62.5em) {
     .userflows-img {
       padding: 5% 0;
@@ -1242,6 +1302,24 @@ h4 {
     .wireframes {
       margin: 0 auto;
       width: 65%;
+    }
+  }
+
+  @media screen and (min-wdith: 75em) {
+    .wireframes {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .wireframes {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .wireframes {
+      width: 45%;
     }
   }
 
@@ -1263,6 +1341,24 @@ h4 {
     .branding {
       margin: 0 auto;
       width: 65%;
+    }
+  }
+
+  @media screen and (min-wdith: 75em) {
+    .branding {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .branding {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .branding {
+      width: 45%;
     }
   }
 
@@ -1290,6 +1386,24 @@ h4 {
       width: 65%;
     }
   }
+  
+  @media screen and (min-wdith: 75em) {
+    .user-testing {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .user-testing {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .user-testing {
+      width: 45%;
+    }
+  }
 
   @media screen and (min-width: 62.5em) {
     .user-preferences {
@@ -1309,6 +1423,24 @@ h4 {
   @media screen and (min-width: 62.5em) {
     .prototype {
       width: 65%;
+    }
+  }
+
+  @media screen and (min-wdith: 75em) {
+    .prototype {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .prototype {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .prototype {
+      width: 45%;
     }
   }
 
