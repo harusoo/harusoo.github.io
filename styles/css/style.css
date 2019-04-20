@@ -838,49 +838,19 @@ h4 {
   }
 
   @media screen and (min-width: 75em) {
-    .summary-text, 
-    .problem, 
-    .solution,
-    .user-personas,
-    .competitive-analysis,
-    .user-flows,
-    .wireframes,
-    .branding,
-    .user-testing,
-    .prototype,
-    .conclustion-text {
+    .summary-text {
       width: 60%;
     }
   }
 
   @media screen and (min-width: 90em) {
-    .summary-text,
-    .problem, 
-    .solution,
-    .user-personas,
-    .competitive-analysis,
-    .user-flows,
-    .wireframes,
-    .branding,
-    .user-testing,
-    .prototype,
-    .conclustion-text {
+    .summary-text {
       width: 55%;
     }
   }
 
   @media screen and (min-width: 100em) {
-    .summary-text,
-    .problem, 
-    .solution,
-    .user-personas,
-    .competitive-analysis,
-    .user-flows,
-    .wireframes,
-    .branding,
-    .user-testing,
-    .prototype,
-    .conclustion-text {
+    .summary-text {
       width: 45%;
     }
   }
@@ -909,11 +879,29 @@ h4 {
   }
 
   @media screen and (min-width: 62.5em) {
-    .problem {
+    .problem, .solution {
       width: 65%;
     }
   }
   
+  @media screen and (min-wdith: 75em) {
+    .problem {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+     .problem, .solution {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+     .problem, .solution {
+      width: 45%;
+    }
+  }
+
   .problem-title {
     display: flex;
     justify-content: flex-start;
@@ -964,9 +952,21 @@ h4 {
     }    
   }
 
-  @media screen and (min-width: 62.5em) {
-    .survey-content {
-      width: 100%
+  @media screen and (min-width: 75em) {
+    .survey, .user-personas, .competitive-analysis, .user-flows, .wireframes, .branding, .user-testing, .prototype {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+    .survey, .user-personas, .competitive-analysis, .user-flows, .wireframes, .branding, .user-testing, .prototype {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+    .survey, .user-personas, .competitive-analysis, .user-flows, .wireframes, .branding, .user-testing, .prototype {
+      width: 45%;
     }
   }
 
@@ -1346,6 +1346,24 @@ h4 {
   @media screen and (min-width: 62.5em) {
     .conclusion-text {
       width: 65%;
+    }
+  }
+
+  @media screen and (min-width: 70em) {
+    .conclusion-text {
+      width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+    .conclusion-text {
+      width: 55%;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+    .conclusion-text {
+      width: 45%;
     }
   }
 
