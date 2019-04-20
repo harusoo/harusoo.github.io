@@ -305,7 +305,7 @@ h4 {
   p {
     font-family: 'Proxima Nova', sans-serif;
     font-size: 22px;
-    line-height: 1.2em;
+    line-height: 1.6em;
     padding: 10px 0;
     width: 100%;
   }
@@ -884,7 +884,7 @@ h4 {
     }
   }
   
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .problem {
       width: 60%;
     }
@@ -923,7 +923,7 @@ h4 {
     }
   }
 
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .solution {
       width: 60%;
     }
@@ -1000,7 +1000,7 @@ h4 {
     }
   }
 
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .user-personas {
       width: 60%;
     }
@@ -1269,7 +1269,7 @@ h4 {
     }
   }
 
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .user-flows {
       width: 60%;
     }
@@ -1305,7 +1305,7 @@ h4 {
     }
   }
 
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .wireframes {
       width: 60%;
     }
@@ -1344,7 +1344,7 @@ h4 {
     }
   }
 
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .branding {
       width: 60%;
     }
@@ -1387,7 +1387,7 @@ h4 {
     }
   }
   
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .user-testing {
       width: 60%;
     }
@@ -1426,7 +1426,7 @@ h4 {
     }
   }
 
-  @media screen and (min-wdith: 75em) {
+  @media screen and (min-width: 75em) {
     .prototype {
       width: 60%;
     }
