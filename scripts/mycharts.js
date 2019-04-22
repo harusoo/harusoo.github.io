@@ -2,7 +2,7 @@ var ctx = document.getElementById('myChart1').getContext('2d');
 var myChart1 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Open to networking', 'Not open to networking'],
+        labels: ['Open', 'Not open'],
         datasets: [{
             label: '# of Votes',
             data: [72.2, 27.8],
@@ -28,7 +28,7 @@ var ctx = document.getElementById('myChart2').getContext('2d');
 var myChart2 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Real-time collaboration useful', 'Real-time collaboration not useful'],
+        labels: ['Useful', 'Not useful'],
         datasets: [{
             label: '# of Votes',
             data: [77.8, 22.2],
@@ -54,7 +54,7 @@ var ctx = document.getElementById('myChart3').getContext('2d');
 var myChart3 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Uses cloud storage', 'Does not use cloud storage'],
+        labels: ['Use', 'Does not use'],
         datasets: [{
             label: '# of Votes',
             data: [81.8, 18.2],
@@ -80,7 +80,7 @@ var ctx = document.getElementById('myChart4').getContext('2d');
 var myChart4 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Necessary for work', 'Unnecessary for work'],
+        labels: ['Necessary', 'Unnecessary'],
         datasets: [{
             label: '# of Votes',
             data: [68.2, 31.8],
