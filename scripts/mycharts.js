@@ -54,7 +54,7 @@ var ctx = document.getElementById('myChart3').getContext('2d');
 var myChart3 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Use', 'Does not use'],
+        labels: ['Use', 'Do not use'],
         datasets: [{
             label: '# of Votes',
             data: [81.8, 18.2],
