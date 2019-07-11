@@ -692,7 +692,7 @@ h4 {
   }
 
   .contact-form input {
-    font-family: "Abel", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1em;
     border-radius: 0px;
     margin-bottom: 30px;
@@ -702,7 +702,7 @@ h4 {
     border-bottom: 1px solid gray;
   }
   .contact-form textarea {
-    font-family: "Abel", sans-serif;
+    font-family: "Lato", sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
