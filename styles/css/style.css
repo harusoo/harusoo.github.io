@@ -15,6 +15,7 @@
 
 html, body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -22,13 +23,15 @@ img {
 }
 
 h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 510;
 }
 
 h4 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 510;
 }
 
 .wrapper {
@@ -61,7 +64,8 @@ h4 {
 .header li a {
   color: #000;
   display: flex;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 530;
   justify-content: flex-end;
   padding: 20px 20px;
   text-decoration: none;
@@ -70,6 +74,10 @@ h4 {
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f4;
+}
+
+.header li a:focus {
+  color:#d96b6b;
 }
 
 .header .logo {
@@ -247,6 +255,14 @@ h4 {
   }
 
 /* Project */
+  .citysports {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: sticky;
+  }
+
   .iconplex-cloud-storage {
     background: #fff;
     display: flex;
@@ -286,6 +302,18 @@ h4 {
   }
 }
 
+  .citysports-container {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+  }
+
+  .img-cs {
+    display: flex;
+    float: right;
+    margin: 20px 0;
+  }
+
   .icplx-container {
     display: flex;
     margin: 20px 0;
@@ -294,7 +322,7 @@ h4 {
 
   h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 400;
   }
 
@@ -303,8 +331,9 @@ h4 {
   }
 
   p {
-    font-family: 'Proxima Nova', sans-serif;
-    font-size: 22px;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
     line-height: 1.6em;
     padding: 10px 0;
     width: 100%;
@@ -364,8 +393,8 @@ h4 {
   @media screen and (min-width: 48em) {
     .bloc-container {
       width: 50%;
-    }  
-  } 
+    }
+  }
 
   @media screen and (min-width: 64em) {
     .bloc-container {
@@ -627,7 +656,7 @@ h4 {
     padding-top: 100px;
     width: 80%;
   }
-  
+
   @media screen and (min-width: 62em){
     .contact-box.eight-column {
       padding: 10% 0;
@@ -706,14 +735,14 @@ h4 {
   @media screen and (min-width: 90em){
     .box-form {
       width: 50%;
-    }  
+    }
   }
 
   .send {
     display: flex;
     justify-content: center;
   }
-  
+
   button {
     background: #4F4F4F;
     border-radius: 3px;
@@ -883,7 +912,7 @@ h4 {
       width: 65%;
     }
   }
-  
+
   @media screen and (min-width: 75em) {
     .problem {
       width: 60%;
@@ -963,11 +992,11 @@ h4 {
     padding-top: 10px;
     width: 80%;
   }
-  
+
   @media screen and (min-width: 62.5em) {
     .survey {
       width: 65%
-    }    
+    }
   }
 
   @media screen and (min-width: 75em) {
@@ -1057,9 +1086,9 @@ h4 {
   .taylor {
     width: 50%;
   }
-  
+
   .alec {
-    width: 45%;  
+    width: 45%;
   }
 
   .persona-profile {
@@ -1093,10 +1122,11 @@ h4 {
     font-size: 24px;
     font-weight: 550;
   }
-  
+
   .persona-ul {
-    font-family: 'proxima nova', sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 20px;
+    font-weight: 300;
     line-height: 1.2em;
   }
 
@@ -1114,19 +1144,19 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    
+
   }
 
   .survey-data {
     display: flex;
     flex-direction: column;
-    
+
   }
-  
+
   .chart1, .chart2, .chart3, .chart4 {
     padding: 10%;
   }
-  
+
   @media screen and (min-width: 62em) {
     .chart1, .chart2, .chart3, .chart4 {
       margin-top: 3%;
@@ -1255,7 +1285,7 @@ h4 {
     .competitor {
       width: 100%;
     }
-  } 
+  }
 
   .user-flows {
     margin: 0 auto;
@@ -1372,7 +1402,7 @@ h4 {
     display: block;
     margin: 0 auto;
     padding: 3% 0;
-    width: 100%;  
+    width: 100%;
   }
 
   .user-testing {
@@ -1386,7 +1416,7 @@ h4 {
       width: 65%;
     }
   }
-  
+
   @media screen and (min-width: 75em) {
     .user-testing {
       width: 60%;
@@ -1419,7 +1449,7 @@ h4 {
     padding: 50px 0;
     width: 80%;
   }
-  
+
   @media screen and (min-width: 62.5em) {
     .prototype {
       width: 65%;
@@ -1501,5 +1531,997 @@ h4 {
 
   .iconplex-title {
     padding: 20px 0;
+  }
+}
+
+/** City Sports **/
+.intro-citysports {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 60px;
+  margin: 0 auto;
+}
+
+.text-set-citysports {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  padding:30px 0;
+}
+
+.citysports-logo {
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
+
+}
+
+.phrase-box {
+  display: flex;
+  justify-content: center;
+}
+
+.CatchPhrase-cs {
+
+  color: #000;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 0;
+
+}
+
+@media screen and (min-width: 31.25em) {
+  .CatchPhrase-cs {
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .CatchPhrase-cs {
+    font-size:32px;
+  }
+}
+
+@media screen and (min-width: 62.5em) {
+  .CatchPhrase-cs {
+    font-size:40px;
+  }
+}
+
+.preview-box {
+  display: flex;
+  justify-content: center;
+}
+
+.cs-preview {
+  color: #000;
+  display: flex;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  margin: 25px;
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 31.25em) {
+  .cs-preview {
+    font-size:16px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .cs-preview {
+    font-size:20px;
+  }
+}
+
+.cs-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.prototype-button-cs {
+  background: #F45A5A;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+
+}
+
+.prototype-button-cs:hover {
+  background: #F26B6B;
+}
+
+.citysports-cover {
+  background: #f2f2f2;
+  padding: 70px 0;
+}
+
+/** City Sports Summary **/
+.roles-etc {
+  display: grid;
+  grid-gap: 7rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 7rem 20rem 3rem 20rem;
+  position: sticky;
+}
+
+.overview {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: sticky;
+}
+
+.summary-text-cs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 15% 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 48em) {
+  .summary-text-cs {
+    padding: 5% 0;
+  }
+}
+
+@media screen and (min-width: 62.5em) {
+  .summary-text-cs {
+    padding: 3% 0;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .summary-text-cs {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .summary-text-cs {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .summary-text-cs {
+    width: 45%;
+  }
+}
+
+h3.cs-title {
+  text-align: left;
+}
+
+/** Problem Solution **/
+.problem-solution-cs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: sticky;
+}
+
+.problem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .problem {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .problem {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .problem {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .problem {
+    width: 45%;
+  }
+}
+
+.problem-title {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .solution {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .solution {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .solution {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .solution {
+    width: 45%;
+  }
+}
+
+/** Process **/
+.process-cs {
+  background: #9AD6F0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: sticky;
+}
+
+.cs-process {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  width: 80%;
+}
+
+.process-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 5% 0;
+  width: 80%;
+}
+
+.cs-timeline {
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 48em) {
+  .process-text {
+    padding: 5% 0;
+  }
+}
+
+@media screen and (min-width: 62.5em) {
+  .process-text {
+    padding: 3% 0;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .process-text {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .process-text {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .process-text {
+    width: 45%;
+  }
+}
+
+.survey {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  padding-top: 10px;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .survey {
+    width: 65%
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .survey {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .survey {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .survey {
+    width: 45%;
+  }
+}
+
+.user-personas {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .user-personas {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .user-personas {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .user-personas {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .user-personas {
+    width: 45%;
+  }
+}
+
+.personas-cs {
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 62em) {
+  .personas-cs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+  }
+}
+
+.persona-box-cs {
+  margin: 10px 0;
+  padding: 25px;
+  position: relative;
+}
+
+@media screen and (min-width: 62em) {
+  .persona-box:last-child::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 0;
+  }
+}
+
+.persona-img {
+  text-align: center;
+}
+
+.luc {
+  width: 65%;
+}
+
+.jay {
+  width: 65%;
+}
+
+.dan {
+  width: 65%;
+}
+
+.persona-profile {
+  text-align: center;
+}
+
+.persona-name {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.persona-title {
+  font-size: 20px;
+}
+
+.persona-role {
+  text-align: center;
+}
+
+.motivation {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.persona-narrative {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.goals {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.persona-ul {
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+.persona-li {
+  margin-left: 20px;
+}
+
+.frustrations {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.survey-data {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.chart1, .chart2, .chart3, .chart4 {
+  padding: 10%;
+}
+
+@media screen and (min-width: 62em) {
+  .chart1, .chart2, .chart3, .chart4 {
+    margin-top: 3%;
+    padding: 0%;
+    width: 20%;
+  }
+  .chart2, .chart3, .chart4 {
+    margin-left: 6%;
+  }
+}
+
+@media screen and (min-width: 31.25em) {
+  .survey-data {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 37.5em) {
+  .survey-data {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 42em) {
+  .survey-data {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .survey-data {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .survey-data.bigger-screen {
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+.chart-text {
+  font-size: 16px;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.competitive-analysis {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 62.5em) {
+  .competitive-analysis {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .competitive-analysis {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .competitive-analysis {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .competitive-analysis {
+    width: 45%;
+  }
+}
+
+.section-title {
+  padding: 10px 0;
+}
+
+.comp-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 5% 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62em) {
+  .comp-text {
+    width: 100%;
+  }
+}
+
+.section-comp-anal {
+  padding: 10px 0;
+}
+.competitors-logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+@media screen and (min-width: 62.5em) {
+  .competitors-logos {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.competitor-box {
+  margin: 5px;
+  padding: 10px;
+}
+
+.competitor {
+  padding: 10px 0;
+  width: 77%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 62.5em) {
+  .competitor {
+    width: 100%;
+  }
+}
+
+.strategy {
+  background: #f2f2f2;
+}
+
+.user-flows {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .user-flows {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .user-flows {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .user-flows {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .user-flows {
+    width: 45%;
+  }
+}
+
+.userflows-img-cs {
+  background: #383838;
+}
+
+@media screen and (min-width: 62.5em) {
+  .userflows-img-cs {
+    padding: 5% 0;
+  }
+}
+
+.user-stories {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.userflows-1 {
+  background: #383838;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 2%;
+}
+
+.userflows-2 {
+  background: #383838;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.strategy2 {
+  background: #f2f2f2;
+}
+
+.wireframes {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .wireframes {
+    margin: 0 auto;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .wireframes {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .wireframes {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .wireframes {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 62.5em) {
+  .wireframes-img {
+    margin: 0 auto;
+    justify-content: center;
+    padding: 5% 0;
+  }
+}
+
+.sketches {
+  background: #9AD6F0;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding: 5% 0;
+  margin: 0 auto;
+}
+
+.screens-1 {
+  background: #383838;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+
+.screens-2 {
+  background: #383838;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+
+.screen {
+  padding: 10px;
+}
+
+.branding {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .branding {
+    margin: 0 auto;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .branding {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+   .branding {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 100em) {
+   .branding {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 62.5em) {
+  .style-guide {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+.brandings {
+  background: #9AD6F0;
+  margin: 0 auto;
+}
+
+.logo-sketch {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.logos {
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1% 0;
+}
+
+.colors {
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+.color-text {
+  background: #9AD6F0;
+  margin:0 auto;
+  padding: 4%;
+  width: 77%;
+}
+
+.color {
+  background: #9AD6F0;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  width: 77%;
+}
+
+.typographies {
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.heading {
+  background: #9AD6F0;
+  margin: 0 auto;
+  padding: 4%;
+  width: 77%;
+}
+
+.fonts {
+  background: #9AD6F0;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  width: 77%;
+}
+
+.visualdesign {
+  background: #F2F2F2;
+}
+
+.competitive-analysis-d {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .competitive-analysis-d {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .competitive-analysis-d {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .competitive-analysis-d {
+    width: 55%;
+  }
+}
+
+
+.high-fidelity-mockup {
+  background: #9AD6F0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.highfidelity {
+  padding: 5%;
+  width: 100%;
+}
+
+.usertesting {
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.icon {
+  background: #9AD6F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2%;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .icon {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .icon {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .icon {
+    width: 55%;
+  }
+}
+
+.images-testing {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.calendar {
+  justify-content: center;
+  padding: 3% 0;
+}
+
+.conclusion-c {
+  background: #f2f2f2;
+  margin: 0 auto;
+}
+
+.conclusion-text-c {
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5% 0;
+  width: 80%;
+}
+
+@media screen and (min-width: 62.5em) {
+  .conclusion-text-c {
+    padding: 3% 0;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 70em) {
+  .conclusion-text-c {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .conclusion-text-c {
+    width: 55%;
   }
 }
