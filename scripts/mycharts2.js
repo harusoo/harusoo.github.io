@@ -2,7 +2,7 @@ var ctx = document.getElementById('myChart1').getContext('2d');
 var myChart1 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Open', 'Not open'],
+        labels: ['Convenient', 'Not convenient'],
         datasets: [{
             label: '# of Votes',
             data: [65, 35],
@@ -28,7 +28,7 @@ var ctx = document.getElementById('myChart2').getContext('2d');
 var myChart2 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Useful', 'Not useful'],
+        labels: ['Want', 'Do not want'],
         datasets: [{
             label: '# of Votes',
             data: [87, 13],
@@ -54,7 +54,7 @@ var ctx = document.getElementById('myChart3').getContext('2d');
 var myChart3 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Use', 'Do not use'],
+        labels: ['Better', 'Not better'],
         datasets: [{
             label: '# of Votes',
             data: [70, 30],
@@ -80,7 +80,7 @@ var ctx = document.getElementById('myChart4').getContext('2d');
 var myChart4 = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['Necessary', 'Unnecessary'],
+        labels: ['More engagement', 'Not really'],
         datasets: [{
             label: '# of Votes',
             data: [63.6, 36.4],
